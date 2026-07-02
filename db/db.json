@@ -1,18 +1,166 @@
 {
-  "usuarios": [
+  "servicos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Corte Degradê Navalhado",
+      "descricaoCurta": "Degradê moderno com acabamento na navalha e finalização.",
+      "descricaoCompleta": "Corte degradê (fade) feito na máquina com transição suave e acabamento na navalha para o pézinho e contornos. Inclui lavagem, finalização com pomada e desenho de linha opcional. Ideal para quem quer um visual moderno e bem alinhado.",
+      "imagem": "https://picsum.photos/seed/barber1/600/400",
+      "categoria": "Corte",
+      "valor": 50,
+      "duracao": 45,
+      "tags": ["navalha", "degradê", "finalização", "pézinho"],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Corte Social Clássico",
+      "descricaoCurta": "Corte clássico na tesoura, discreto e elegante.",
+      "descricaoCompleta": "Corte social trabalhado predominantemente na tesoura, mantendo comprimento nas laterais e um visual sóbrio e profissional. Perfeito para o ambiente de trabalho e ocasiões formais. Inclui lavagem e finalização.",
+      "imagem": "https://picsum.photos/seed/barber2/600/400",
+      "categoria": "Corte",
+      "valor": 35,
+      "duracao": 30,
+      "tags": ["tesoura", "clássico", "discreto", "social"],
+      "destaque": false
+    },
+    {
+      "id": 3,
+      "nome": "Barba Modelada na Navalha",
+      "descricaoCurta": "Modelagem completa da barba com toalha quente.",
+      "descricaoCompleta": "Serviço completo de barba: toalha quente para abrir os poros, modelagem e alinhamento com navalha, aplicação de óleo e finalização com bálsamo. Deixa a barba desenhada, macia e perfumada.",
+      "imagem": "https://picsum.photos/seed/barber3/600/400",
+      "categoria": "Barba",
+      "valor": 40,
+      "duracao": 30,
+      "tags": ["navalha", "toalha-quente", "óleo", "alinhamento"],
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "nome": "Barboterapia Premium",
+      "descricaoCurta": "Ritual de barba com massagem e hidratação.",
+      "descricaoCompleta": "Experiência premium de cuidado com a barba: esfoliação, toalha quente, massagem facial relaxante, hidratação profunda e modelagem na navalha. Um momento de autocuidado com resultado impecável.",
+      "imagem": "https://picsum.photos/seed/barber4/600/400",
+      "categoria": "Barba",
+      "valor": 55,
+      "duracao": 40,
+      "tags": ["toalha-quente", "massagem", "hidratação", "óleo"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "nome": "Combo Corte + Barba",
+      "descricaoCurta": "Corte completo e barba modelada com desconto.",
+      "descricaoCompleta": "O combo mais pedido da casa: corte completo (máquina e tesoura) somado à modelagem de barba na navalha com toalha quente. Sai mais em conta do que os serviços separados e garante o visual alinhado de ponta a ponta.",
+      "imagem": "https://picsum.photos/seed/barber5/600/400",
+      "categoria": "Combo",
+      "valor": 75,
+      "duracao": 60,
+      "tags": ["corte", "barba", "navalha", "completo"],
+      "destaque": true
+    },
+    {
+      "id": 6,
+      "nome": "Corte Infantil",
+      "descricaoCurta": "Corte para crianças com todo o cuidado.",
+      "descricaoCompleta": "Atendimento paciente e divertido para os pequenos, com corte adaptado ao estilo pedido pelos pais. Ambiente tranquilo, acabamento cuidadoso e aquela conversa para deixar a criança à vontade na cadeira.",
+      "imagem": "https://picsum.photos/seed/barber6/600/400",
+      "categoria": "Corte",
+      "valor": 40,
+      "duracao": 30,
+      "tags": ["kids", "paciência", "acabamento", "tesoura"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "nome": "Platinado Masculino",
+      "descricaoCurta": "Descoloração e tonalização para o cabelo platinado.",
+      "descricaoCompleta": "Processo completo de descoloração dos fios com produtos profissionais, seguido de matização para chegar ao tom platinado desejado sem amarelar. Inclui avaliação prévia do couro cabeludo e hidratação de reconstrução ao final.",
+      "imagem": "https://picsum.photos/seed/barber7/600/400",
+      "categoria": "Tratamento",
+      "valor": 180,
+      "duracao": 120,
+      "tags": ["descoloração", "matização", "platinado", "reconstrução"],
+      "destaque": true
+    },
+    {
+      "id": 8,
+      "nome": "Pigmentação de Barba",
+      "descricaoCurta": "Preenchimento de falhas com pigmento natural.",
+      "descricaoCompleta": "Técnica de pigmentação para disfarçar falhas e dar a impressão de uma barba mais cheia e uniforme. Resultado natural, aplicado por tom, com duração de algumas semanas. Ideal para quem tem barba rala em certas regiões.",
+      "imagem": "https://picsum.photos/seed/barber8/600/400",
+      "categoria": "Barba",
+      "valor": 45,
+      "duracao": 45,
+      "tags": ["preenchimento", "pigmento", "disfarce", "volume"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "nome": "Corte na Máquina",
+      "descricaoCurta": "Corte prático e rápido feito na máquina.",
+      "descricaoCompleta": "Corte objetivo feito totalmente na máquina, com a altura de pente escolhida por você. Rápido, prático e com ótimo custo-benefício, mantendo os contornos alinhados na navalha.",
+      "imagem": "https://picsum.photos/seed/barber9/600/400",
+      "categoria": "Corte",
+      "valor": 30,
+      "duracao": 20,
+      "tags": ["máquina", "rápido", "prático", "contornos"],
+      "destaque": false
+    },
+    {
+      "id": 10,
+      "nome": "Combo Completo",
+      "descricaoCurta": "Corte, barba e sobrancelha no pacote premium.",
+      "descricaoCompleta": "O pacote mais completo: corte personalizado, barba modelada na navalha e alinhamento de sobrancelha na pinça/navalha. A experiência definitiva para sair renovado dos pés à cabeça, com atendimento sem pressa.",
+      "imagem": "https://picsum.photos/seed/barber10/600/400",
+      "categoria": "Combo",
+      "valor": 95,
+      "duracao": 75,
+      "tags": ["corte", "barba", "sobrancelha", "premium"],
+      "destaque": true
+    },
+    {
+      "id": 11,
+      "nome": "Hidratação Capilar",
+      "descricaoCurta": "Tratamento para devolver brilho e maciez aos fios.",
+      "descricaoCompleta": "Tratamento de hidratação com máscara profissional para repor a nutrição dos fios, devolvendo brilho, maciez e saúde ao couro cabeludo. Recomendado para cabelos ressecados ou após processos químicos.",
+      "imagem": "https://picsum.photos/seed/barber11/600/400",
+      "categoria": "Tratamento",
+      "valor": 50,
+      "duracao": 40,
+      "tags": ["hidratação", "brilho", "nutrição", "couro-cabeludo"],
+      "destaque": false
+    },
+    {
+      "id": 12,
+      "nome": "Relaxamento Masculino",
+      "descricaoCurta": "Alinhamento capilar para reduzir o volume.",
+      "descricaoCompleta": "Procedimento de alinhamento capilar masculino para reduzir volume e frizz, deixando os fios mais disciplinados e fáceis de pentear. Inclui lavagem, aplicação do produto, selagem e finalização.",
+      "imagem": "https://picsum.photos/seed/barber12/600/400",
+      "categoria": "Tratamento",
+      "valor": 130,
+      "duracao": 90,
+      "tags": ["alinhamento", "anti-frizz", "selagem", "disciplina"],
+      "destaque": false
     }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Corte", "icone": "✂️" },
+    { "id": 2, "nome": "Barba", "icone": "🧔" },
+    { "id": 3, "nome": "Combo", "icone": "💈" },
+    { "id": 4, "nome": "Tratamento", "icone": "🧴" }
+  ],
+  "avaliacoes": [
+    { "id": 1, "servicoId": 1, "nota": 5, "comentario": "Melhor degradê que já fiz!" },
+    { "id": 2, "servicoId": 3, "nota": 5, "comentario": "A toalha quente faz toda a diferença." },
+    { "id": 3, "servicoId": 5, "nota": 4, "comentario": "Ótimo combo, saí novo." },
+    { "id": 4, "servicoId": 7, "nota": 5, "comentario": "Platinado ficou perfeito, sem amarelar." },
+    { "id": 5, "servicoId": 10, "nota": 5, "comentario": "Atendimento premium de verdade." }
+  ],
+  "favoritos": [
+    { "id": 1, "servicoId": 1 },
+    { "id": 2, "servicoId": 5 },
+    { "id": 3, "servicoId": 10 }
   ]
 }
